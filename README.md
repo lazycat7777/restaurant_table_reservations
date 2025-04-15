@@ -1,1 +1,16 @@
-# restaurant_table_reservations
+API-сервис бронирования столиков в ресторане
+
+1. **Клонируйте репозиторий:**
+
+2. **Создайте в корне проекта файл `.env`.**
+Пример можно найти `.env.example`
+
+3. **Соберите и запустите приложение**:
+```bash
+docker-compose up -d --build
+```
+
+4. **Примените последнюю миграцию**:
+```bash
+docker-compose run --rm fastapi alembic upgrade head
+```
